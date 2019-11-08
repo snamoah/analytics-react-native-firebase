@@ -8,7 +8,7 @@
 
 #import <React/RCTBridgeModule.h>
 #import <RNAnalytics/RNAnalytics.h>
-#import <Segment_Firebase/SEGFirebaseIntegrationFactory.h>
+#import "SEGFirebaseIntegrationFactory.h"
 
 @interface RNAnalyticsIntegration_Firebase: NSObject<RCTBridgeModule>
 @end
